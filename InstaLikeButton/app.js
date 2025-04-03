@@ -9,12 +9,10 @@ con.addEventListener("dblclick", function () {
   like.style.opacity = 0.8;
 
   setTimeout(function () {
-    
     like.style.transform = " translate(-50%, -50%) scale(0)";
-    }, 1000);
-    
+  }, 1000);
+
   setTimeout(function () {
-    
-  like.style.transform = " translate(-50%, -50%) scale(0)";
+    like.style.transform = " translate(-50%, -50%) scale(0)";
   }, 2000);
 });
